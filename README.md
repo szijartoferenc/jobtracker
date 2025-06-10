@@ -23,7 +23,7 @@ The app also includes statistics and visualization features such as charts displ
 ---
 
 ## Technologies
-- Laravel 9+ with Breeze for auth scaffolding  
+- Laravel 10 with Breeze for auth scaffolding  
 - Blade templating engine for frontend views  
 - Chart.js for dynamic graphs  
 - MySQL database (XAMPP environment)  
@@ -58,7 +58,7 @@ Az alkalmazás statisztikai adatokat és vizualizációkat is biztosít (pl. dia
 ---
 
 ## Használt technológiák
-- Laravel 9+ Breeze hitelesítéssel  
+- Laravel 10 Breeze hitelesítéssel  
 - Blade sablonmotor a frontendhez  
 - Chart.js a dinamikus grafikonokhoz  
 - MySQL adatbázis (XAMPP környezet)  
