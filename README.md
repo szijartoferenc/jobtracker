@@ -1,66 +1,69 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Job Application Tracker
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
+This is a **single-user job application tracking** web application built with **Laravel + Breeze** (backend) and **Blade templates** (frontend).  
+It helps users manage their job applications by tracking statuses, companies, red-flagged companies, and related documents (CV, motivation letter).  
+The app also includes statistics and visualization features such as charts displaying application trends and status breakdowns.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
+- CRUD management of job applications  
+- Track application statuses (e.g., applied, interview, rejected)  
+- Mark companies as red-flagged for caution  
+- Upload and download CVs and motivation letters  
+- View aggregated statistics: total applications, number of companies, red-flagged companies count, last application date  
+- Status-based statistics and charts powered by Chart.js  
+- Monthly application trends visualization  
+- Export data (CSV/PDF) *(planned or extensible)*  
+- User authentication and authorization with Laravel Breeze  
+- Responsive design with Tailwind CSS integration (optional, or native Blade styling)  
+- Error handling for missing data and empty datasets  
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Technologies
+- Laravel 9+ with Breeze for auth scaffolding  
+- Blade templating engine for frontend views  
+- Chart.js for dynamic graphs  
+- MySQL database (XAMPP environment)  
+- PHP 8+  
+- Tailwind CSS (optional)  
+- JavaScript (vanilla, for charts)  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# Állásjelentkezés-kezelő alkalmazás
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Leírás
+Ez egy **egyfelhasználós állásjelentkezés-kezelő** webalkalmazás **Laravel + Breeze** backenddel és **Blade frontend** nézetekkel.  
+Segíti a felhasználót az állásjelentkezések nyomon követésében, beleértve a státuszokat, cégeket, red-flag-es cégeket, valamint kapcsolódó dokumentumokat (önéletrajz, motivációs levél).  
+Az alkalmazás statisztikai adatokat és vizualizációkat is biztosít (pl. diagramok az állásjelentkezések alakulásáról).
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## Funkciók
+- Állásjelentkezések CRUD kezelése  
+- Jelentkezési státuszok nyomon követése (pl. pályázva, interjú, elutasítva)  
+- Red-flag-es cégek megjelölése figyelmeztetésként  
+- Önéltrajz és motivációs levél feltöltése és letöltése  
+- Összesített statisztikák: jelentkezések száma, cégek száma, red-flag-es cégek száma, utolsó jelentkezés dátuma  
+- Státusz szerinti statisztika és diagramok Chart.js segítségével  
+- Havi jelentkezési trendek megjelenítése  
+- Exportálás CSV/PDF formátumban (később bővíthető)  
+- Felhasználói hitelesítés Laravel Breeze-szel  
+- Reszponzív design Tailwind CSS-sel vagy natív Blade stílusokkal  
+- Hibakezelés hiányzó vagy üres adatok esetén  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## Használt technológiák
+- Laravel 9+ Breeze hitelesítéssel  
+- Blade sablonmotor a frontendhez  
+- Chart.js a dinamikus grafikonokhoz  
+- MySQL adatbázis (XAMPP környezet)  
+- PHP 8+  
+- Tailwind CSS (opcionálisan)  
+- JavaScript (egyszerű, csak a grafikonokhoz)  
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
