@@ -67,3 +67,9 @@ Az alkalmazás statisztikai adatokat és vizualizációkat is biztosít (pl. dia
 - JavaScript (egyszerű, csak a grafikonokhoz)  
 
 ---
+![image](https://github.com/user-attachments/assets/a044cc1f-d5e8-47ae-84a1-e42ca48ed002)
+
+
+![image](https://github.com/user-attachments/assets/c7fbac2e-a8b0-4a0f-b909-2e66795f4f9b)
+
+
