@@ -1,70 +1,79 @@
-# Job Application Tracker
+# 📂 Job Application Tracker
 
-## Description
-This is a **single-user job application tracking** web application built with **Laravel + Breeze** (backend) and **Blade templates** (frontend).  
-It helps users manage their job applications by tracking statuses, companies, red-flagged companies, and related documents (CV, motivation letter).  
-The app also includes statistics and visualization features such as charts displaying application trends and status breakdowns.
+> 🧑‍💻 Personal project to organize your job search efficiently – with Laravel + Breeze + Blade
 
----
+## 🌐 Description / Leírás
 
-## Features
-- CRUD management of job applications  
-- Track application statuses (e.g., applied, interview, rejected)  
-- Mark companies as red-flagged for caution  
-- Upload and download CVs and motivation letters  
-- View aggregated statistics: total applications, number of companies, red-flagged companies count, last application date  
-- Status-based statistics and charts powered by Chart.js  
-- Monthly application trends visualization  
-- Export data (CSV/PDF) *(planned or extensible)*  
-- User authentication and authorization with Laravel Breeze  
-- Responsive design with Tailwind CSS integration (optional, or native Blade styling)  
-- Error handling for missing data and empty datasets  
+**EN:**  
+This is a **single-user job application tracking web app** built with Laravel + Breeze (backend) and Blade templates (frontend).  
+It helps users manage applications by tracking statuses, companies (incl. red-flagged), and related documents (CV, motivation letter).  
+The app also includes **statistics and visualizations** (e.g., monthly trends, status charts).
+
+**HU:**  
+Ez egy **egyfelhasználós állásjelentkezés-kezelő** webalkalmazás Laravel + Breeze backenddel és Blade frontenddel.  
+Segíti a felhasználót a jelentkezések, státuszok, cégek (red-flag is), és a dokumentumok (önéletrajz, motivációs levél) rendszerezésében.  
+Továbbá **statisztikát és diagramokat** is tartalmaz (pl. havi trendek, státuszok bontása).
 
 ---
 
-## Technologies
-- Laravel 10 with Breeze for auth scaffolding  
-- Blade templating engine for frontend views  
-- Chart.js for dynamic graphs  
-- MySQL database (XAMPP environment)  
-- PHP 8+  
-- Tailwind CSS (optional)  
-- JavaScript (vanilla, for charts)  
+## ✨ Features / Funkciók
+
+- ✅ **CRUD** management of job applications  
+  📌 Jelentkezések teljes kezelése (CRUD)
+- 📊 **Status tracking** (applied, interview, rejected, etc.)  
+  🟡 Státuszkezelés (pályázva, interjú, elutasítva)
+- 🚩 **Red-flag** companies  
+  🚫 Figyelmeztetés kétes cégekre
+- 📁 Upload/download CVs & motivation letters  
+  📤 Fájlkezelés: önéletrajz, motivációs levél
+- 📈 **Statistics dashboard** with Chart.js  
+  📊 Diagramok, statisztikák (összes, státusz szerinti)
+- 🗓️ **Monthly trend** visualization  
+  🗓️ Havi jelentkezési trendek
+- 📤 **CSV/PDF export** (coming soon)  
+  🗂️ Exportálás CSV/PDF-be (később bővíthető)
+- 🔐 Auth via **Laravel Breeze**  
+  🔒 Laravel Breeze autentikáció
+- 📱 **Responsive** layout (Tailwind optional)  
+  📲 Mobilbarát (Tailwind CSS vagy natív Blade)
+- ❗ Error handling for missing/empty datasets  
+  ⚠️ Hibakezelés üres adatok esetén
 
 ---
 
-# Állásjelentkezés-kezelő alkalmazás
+## 🛠️ Tech Stack / Használt technológiák
 
-## Leírás
-Ez egy **egyfelhasználós állásjelentkezés-kezelő** webalkalmazás **Laravel + Breeze** backenddel és **Blade frontend** nézetekkel.  
-Segíti a felhasználót az állásjelentkezések nyomon követésében, beleértve a státuszokat, cégeket, red-flag-es cégeket, valamint kapcsolódó dokumentumokat (önéletrajz, motivációs levél).  
-Az alkalmazás statisztikai adatokat és vizualizációkat is biztosít (pl. diagramok az állásjelentkezések alakulásáról).
-
----
-
-## Funkciók
-- Állásjelentkezések CRUD kezelése  
-- Jelentkezési státuszok nyomon követése (pl. pályázva, interjú, elutasítva)  
-- Red-flag-es cégek megjelölése figyelmeztetésként  
-- Önéltrajz és motivációs levél feltöltése és letöltése  
-- Összesített statisztikák: jelentkezések száma, cégek száma, red-flag-es cégek száma, utolsó jelentkezés dátuma  
-- Státusz szerinti statisztika és diagramok Chart.js segítségével  
-- Havi jelentkezési trendek megjelenítése  
-- Exportálás CSV/PDF formátumban (később bővíthető)  
-- Felhasználói hitelesítés Laravel Breeze-szel  
-- Reszponzív design Tailwind CSS-sel vagy natív Blade stílusokkal  
-- Hibakezelés hiányzó vagy üres adatok esetén  
+| Technology      | Description                          |
+|----------------|--------------------------------------|
+| ⚙️ Laravel 10   | Backend framework                    |
+| 🌬️ Breeze       | Authentication scaffolding           |
+| 🖼️ Blade        | Frontend templating engine           |
+| 📊 Chart.js     | Dynamic charts and graphs            |
+| 🐬 MySQL        | Database (XAMPP environment)         |
+| 🐘 PHP 8+       | Server-side language                 |
+| 🎨 Tailwind CSS | (optional) Utility-first CSS         |
+| ⚡ JavaScript   | Vanilla JS (for chart logic)         |
 
 ---
 
-## Használt technológiák
-- Laravel 10 Breeze hitelesítéssel  
-- Blade sablonmotor a frontendhez  
-- Chart.js a dinamikus grafikonokhoz  
-- MySQL adatbázis (XAMPP környezet)  
-- PHP 8+  
-- Tailwind CSS (opcionálisan)  
-- JavaScript (egyszerű, csak a grafikonokhoz)  
+## 🌍 Live Demo / Élő verzió
+
+🔗 [jobtracker.frankie-webdesign.hu](https://jobtracker.frankie-webdesign.hu)  
+💻 [GitHub Repository](https://github.com/frankie-webdesign/jobtracker)
+
+---
+
+## 🙌 Contributing / Hozzájárulás
+
+This is a personal project, but feel free to fork, explore, or get inspired!  
+Ez egy saját projekt, de bátran forkold vagy tanulj belőle.
+
+---
+
+## 📄 License
+
+MIT License – free for personal and educational use.
+
 
 ---
 ![image](https://github.com/user-attachments/assets/a044cc1f-d5e8-47ae-84a1-e42ca48ed002)
